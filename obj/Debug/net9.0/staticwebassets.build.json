@@ -1,0 +1,702 @@
+{
+  "Version": 1,
+  "Hash": "fVyFkgW6tYd4wm49wIw4zLkYyY1oV0R2cUwzXObPtYI=",
+  "Source": "MyWebApp",
+  "BasePath": "_content/MyWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyWebApp/wwwroot",
+      "Source": "MyWebApp",
+      "ContentRoot": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/compressed/5zg7rpvgf1-4v0tcy0g9s.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "MyWebApp#[.{fingerprint=4v0tcy0g9s}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/scopedcss/projectbundle/MyWebApp.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "4rffh0p3sq",
+      "Integrity": "gP7FCHPGPOo0H+M5hIOITh7VTtqu9sVvlemOTHEMNUY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/scopedcss/projectbundle/MyWebApp.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/compressed/t6h9p7noyw-4v0tcy0g9s.gz",
+      "SourceId": "MyWebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "MyWebApp#[.{fingerprint=4v0tcy0g9s}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/scopedcss/bundle/MyWebApp.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "4rffh0p3sq",
+      "Integrity": "gP7FCHPGPOo0H+M5hIOITh7VTtqu9sVvlemOTHEMNUY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/scopedcss/bundle/MyWebApp.styles.css"
+    },
+    {
+      "Identity": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/scopedcss/bundle/MyWebApp.styles.css",
+      "SourceId": "MyWebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/scopedcss/bundle/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "MyWebApp#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "4v0tcy0g9s",
+      "Integrity": "YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/scopedcss/bundle/MyWebApp.styles.css"
+    },
+    {
+      "Identity": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/scopedcss/projectbundle/MyWebApp.bundle.scp.css",
+      "SourceId": "MyWebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/scopedcss/projectbundle/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "MyWebApp#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "4v0tcy0g9s",
+      "Integrity": "YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/scopedcss/projectbundle/MyWebApp.bundle.scp.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "MyWebApp.4v0tcy0g9s.bundle.scp.css",
+      "AssetFile": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/compressed/5zg7rpvgf1-4v0tcy0g9s.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001865671642"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gP7FCHPGPOo0H+M5hIOITh7VTtqu9sVvlemOTHEMNUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 02:52:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4v0tcy0g9s"
+        },
+        {
+          "Name": "label",
+          "Value": "MyWebApp.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0="
+        }
+      ]
+    },
+    {
+      "Route": "MyWebApp.4v0tcy0g9s.bundle.scp.css",
+      "AssetFile": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/scopedcss/projectbundle/MyWebApp.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 02:52:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4v0tcy0g9s"
+        },
+        {
+          "Name": "label",
+          "Value": "MyWebApp.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0="
+        }
+      ]
+    },
+    {
+      "Route": "MyWebApp.4v0tcy0g9s.bundle.scp.css.gz",
+      "AssetFile": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/compressed/5zg7rpvgf1-4v0tcy0g9s.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gP7FCHPGPOo0H+M5hIOITh7VTtqu9sVvlemOTHEMNUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 02:52:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4v0tcy0g9s"
+        },
+        {
+          "Name": "label",
+          "Value": "MyWebApp.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gP7FCHPGPOo0H+M5hIOITh7VTtqu9sVvlemOTHEMNUY="
+        }
+      ]
+    },
+    {
+      "Route": "MyWebApp.4v0tcy0g9s.styles.css",
+      "AssetFile": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/compressed/t6h9p7noyw-4v0tcy0g9s.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001865671642"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gP7FCHPGPOo0H+M5hIOITh7VTtqu9sVvlemOTHEMNUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 02:52:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4v0tcy0g9s"
+        },
+        {
+          "Name": "label",
+          "Value": "MyWebApp.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0="
+        }
+      ]
+    },
+    {
+      "Route": "MyWebApp.4v0tcy0g9s.styles.css",
+      "AssetFile": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/scopedcss/bundle/MyWebApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 02:52:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4v0tcy0g9s"
+        },
+        {
+          "Name": "label",
+          "Value": "MyWebApp.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0="
+        }
+      ]
+    },
+    {
+      "Route": "MyWebApp.4v0tcy0g9s.styles.css.gz",
+      "AssetFile": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/compressed/t6h9p7noyw-4v0tcy0g9s.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gP7FCHPGPOo0H+M5hIOITh7VTtqu9sVvlemOTHEMNUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 02:52:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4v0tcy0g9s"
+        },
+        {
+          "Name": "label",
+          "Value": "MyWebApp.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gP7FCHPGPOo0H+M5hIOITh7VTtqu9sVvlemOTHEMNUY="
+        }
+      ]
+    },
+    {
+      "Route": "MyWebApp.bundle.scp.css",
+      "AssetFile": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/compressed/5zg7rpvgf1-4v0tcy0g9s.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001865671642"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gP7FCHPGPOo0H+M5hIOITh7VTtqu9sVvlemOTHEMNUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 02:52:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0="
+        }
+      ]
+    },
+    {
+      "Route": "MyWebApp.bundle.scp.css",
+      "AssetFile": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/scopedcss/projectbundle/MyWebApp.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 02:52:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0="
+        }
+      ]
+    },
+    {
+      "Route": "MyWebApp.bundle.scp.css.gz",
+      "AssetFile": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/compressed/5zg7rpvgf1-4v0tcy0g9s.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gP7FCHPGPOo0H+M5hIOITh7VTtqu9sVvlemOTHEMNUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 02:52:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gP7FCHPGPOo0H+M5hIOITh7VTtqu9sVvlemOTHEMNUY="
+        }
+      ]
+    },
+    {
+      "Route": "MyWebApp.styles.css",
+      "AssetFile": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/compressed/t6h9p7noyw-4v0tcy0g9s.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001865671642"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gP7FCHPGPOo0H+M5hIOITh7VTtqu9sVvlemOTHEMNUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 02:52:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0="
+        }
+      ]
+    },
+    {
+      "Route": "MyWebApp.styles.css",
+      "AssetFile": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/scopedcss/bundle/MyWebApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 02:52:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YAKRAjxnH07giAyuIRIQSpl11IE9Iy//Ro9MMlW+qz0="
+        }
+      ]
+    },
+    {
+      "Route": "MyWebApp.styles.css.gz",
+      "AssetFile": "/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net9.0/compressed/t6h9p7noyw-4v0tcy0g9s.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gP7FCHPGPOo0H+M5hIOITh7VTtqu9sVvlemOTHEMNUY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 22 Mar 2025 02:52:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gP7FCHPGPOo0H+M5hIOITh7VTtqu9sVvlemOTHEMNUY="
+        }
+      ]
+    }
+  ]
+}

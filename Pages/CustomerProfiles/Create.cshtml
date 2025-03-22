@@ -1,0 +1,47 @@
+@page
+@model MyWebApp.Pages.CustomerProfiles.CreateModel
+
+<div class="container mt-4">
+    <h2 class="mb-4">Create Customer Data</h2>
+    
+    <form method="post" class="needs-validation" novalidate>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group mb-3">
+                    <label asp-for="CustomerProfile.FirstName" class="form-label"></label>
+                    <input asp-for="CustomerProfile.FirstName" class="form-control" required />
+                    <span asp-validation-for="CustomerProfile.FirstName" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group mb-3">
+                    <label asp-for="CustomerProfile.LastName" class="form-label"></label>
+                    <input asp-for="CustomerProfile.LastName" class="form-control" required />
+                    <span asp-validation-for="CustomerProfile.LastName" class="text-danger"></span>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="form-group mb-3">
+                    <label asp-for="CustomerProfile.Email" class="form-label"></label>
+                    <input asp-for="CustomerProfile.Email" type="email" class="form-control" required />
+                    <span asp-validation-for="CustomerProfile.Email" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group mb-3">
+                    <label asp-for="CustomerProfile.PhoneNumber" class="form-label"></label>
+                    <input asp-for="CustomerProfile.PhoneNumber" class="form-control" required />
+                    <span asp-validation-for="CustomerProfile.PhoneNumber" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-4">
+            <button type="submit" class="btn btn-primary me-2">Create Profile</button>
+            <a asp-page="Index" class="btn btn-outline-secondary">Back to List</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>10.0</LangVersion>
+    <EnableDefaultStaticWebAssets>true</EnableDefaultStaticWebAssets>
+    <DisableStaticWebAssets>false</DisableStaticWebAssets>
+    <DefaultItemExcludes>$(DefaultItemExcludes);wwwroot\**</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0" />
+  </ItemGroup>
+
+  <Target Name="RemoveStaticWebAssetsCache" BeforeTargets="Build">
+    <RemoveDir Directories="$(BaseIntermediateOutputPath)\staticwebassets" />
+    <RemoveDir Directories="$(BaseIntermediateOutputPath)\scopedcss" />
+    <RemoveDir Directories="$(BaseIntermediateOutputPath)\staticwebassets.build.json" />
+  </Target>
+
+</Project>

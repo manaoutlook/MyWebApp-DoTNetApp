@@ -1,0 +1,30 @@
+@page "{id:int}"
+@model MyWebApp.Pages.CustomerProfiles.EditModel
+
+<h2>Edit Customer Profile</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="CustomerProfile.Id" />
+    <div class="form-group">
+        <label asp-for="CustomerProfile.FirstName"></label>
+        <input asp-for="CustomerProfile.FirstName" class="form-control" />
+        <span asp-validation-for="CustomerProfile.FirstName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CustomerProfile.LastName"></label>
+        <input asp-for="CustomerProfile.LastName" class="form-control" />
+        <span asp-validation-for="CustomerProfile.LastName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CustomerProfile.Email"></label>
+        <input asp-for="CustomerProfile.Email" class="form-control" />
+        <span asp-validation-for="CustomerProfile.Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CustomerProfile.PhoneNumber"></label>
+        <input asp-for="CustomerProfile.PhoneNumber" class="form-control" />
+        <span asp-validation-for="CustomerProfile.PhoneNumber" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-page="./Index" class="btn btn-secondary">Cancel</a>
+</form>

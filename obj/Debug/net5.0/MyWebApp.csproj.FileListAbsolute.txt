@@ -1,0 +1,8 @@
+/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net5.0/MyWebApp.csproj.AssemblyReference.cache
+/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net5.0/MyWebApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net5.0/MyWebApp.AssemblyInfoInputs.cache
+/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net5.0/MyWebApp.AssemblyInfo.cs
+/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net5.0/MyWebApp.csproj.CoreCompileInputs.cache
+/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net5.0/MyWebApp.MvcApplicationPartsAssemblyInfo.cache
+/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net5.0/MyWebApp.RazorAssemblyInfo.cache
+/Users/manavazhagana./VS-Code/DotNet0Env3/MyWebApp/obj/Debug/net5.0/MyWebApp.RazorAssemblyInfo.cs

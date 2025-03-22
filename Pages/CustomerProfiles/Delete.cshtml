@@ -1,0 +1,52 @@
+@page "{id:int}"
+@model MyWebApp.Pages.CustomerProfiles.DeleteModel
+
+<h2>Delete Customer Profile</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Customer Profile</h4>
+    <hr />
+    <dl class="row">
+@if (Model == null || Model.CustomerProfile == null)
+{
+    <div class="alert alert-warning">Customer profile not found</div>
+}
+else
+{
+    <dt class="col-sm-2">
+        First Name
+    </dt>
+    <dd class="col-sm-10">
+        @Model.DisplayFirstName
+    </dd>
+    <dt class="col-sm-2">
+        Last Name
+    </dt>
+    <dd class="col-sm-10">
+        @Model.DisplayLastName
+    </dd>
+    <dt class="col-sm-2">
+        Email
+    </dt>
+    <dd class="col-sm-10">
+        @Model.DisplayEmail
+    </dd>
+    <dt class="col-sm-2">
+        Phone Number
+    </dt>
+    <dd class="col-sm-10">
+        @Model.DisplayPhoneNumber
+    </dd>
+}
+    </dl>
+
+    <form method="post">
+        @if (Model != null && Model.CustomerProfile != null)
+        {
+            <input type="hidden" asp-for="CustomerProfile.Id" name="CustomerProfile.Id" />
+        }
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-page="./Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
